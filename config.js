@@ -22,6 +22,12 @@ const CONFIG = {
     // Customize each question and its possible responses
     questions: {
         first: {
+            text: "Firstly will you be my Valentine?",                                    // First interaction
+            yesBtn: "Yes",                                             // Text for "Yes" button
+            noBtn: "Yes",                                               // Text for "No" button
+            secretAnswer: "Sorry you cant even say no XD"           // Secret hover message
+        },
+        first: {
             text: "Please Choose a Starter",                                    // First interaction
             yesBtn: "Fries",                                             // Text for "Yes" button
             noBtn: "Seasoned Potatos",                                               // Text for "No" button
