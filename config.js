@@ -23,9 +23,9 @@ const CONFIG = {
     questions: {
         first: {
             text: "Firstly will you be my Valentine?",                                    // First interaction
-            yesBtn: "Yes",                                             // Text for "Yes" button
-            yesBtn: "Yes",                                               // Text for "No" button
-
+            yesBtn: "Why",                                             // Text for "Yes" button
+            yesBtn: "No",                                               // Text for "No" button
+            secretAnswer: "Yessssss"  
         },
         second: {
             text: "Please Choose a Starter",                                    // First interaction
