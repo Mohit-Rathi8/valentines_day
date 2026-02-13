@@ -5,7 +5,7 @@
 const CONFIG = {
     // Your Valentine's name that will appear in the title
     // Example: "Jade", "Sarah", "Mike"
-    valentineName: "Jade",
+    valentineName: "Amy",
 
     // The title that appears in the browser tab
     // You can use emojis! 💝 💖 💗 💓 💞 💕
@@ -22,21 +22,23 @@ const CONFIG = {
     // Customize each question and its possible responses
     questions: {
         first: {
-            text: "Do you like me?",                                    // First interaction
-            yesBtn: "Yes",                                             // Text for "Yes" button
-            noBtn: "No",                                               // Text for "No" button
-            secretAnswer: "I don't like you, I love you! ❤️"           // Secret hover message
+            text: "Please Choose a Starter",                                    // First interaction
+            yesBtn: "Fries",                                             // Text for "Yes" button
+            noBtn: "Seasoned Potatos",                                               // Text for "No" button
+            secretAnswer: "You have to choose unfortunately"           // Secret hover message
         },
         second: {
-            text: "How much do you love me?",                          // For the love meter
-            startText: "This much!",                                   // Text before the percentage
-            nextBtn: "Next ❤️"                                         // Text for the next button
+            text: "Please Choose a Main",                                    // First interaction
+            yesBtn: "MoMo's Famous Butter Chicken",                                             // Text for "Yes" button
+            noBtn: "Pasta a La Carte",                                               // Text for "No" button
+            secretAnswer: "Unfortunately I cannot be the main :("           // Secret hover message
         },
         third: {
-            text: "Will you be my Valentine on February 14th, 2025? 🌹", // The big question!
-            yesBtn: "Yes!",                                             // Text for "Yes" button
-            noBtn: "No"                                                 // Text for "No" button
-        }
+            text: "Please Choose a Dessert",                                    // First interaction
+            yesBtn: "Fluffy Cake",                                             // Text for "Yes" button
+            noBtn: "An Orange",                                               // Text for "No" button
+            secretAnswer: "Unfortunately I cannot be the dessert either :("           // Secret hover message
+        },
     },
 
     // Love meter messages
@@ -49,7 +51,7 @@ const CONFIG = {
 
     // Messages that appear after they say "Yes!"
     celebration: {
-        title: "Yay! I'm the luckiest person in the world! 🎉💝💖💝💓",
+        title: "Only took 10 years, im crying internally 🎉💝💖💝💓",
         message: "Now come get your gift, a big warm hug and a huge kiss!",
         emojis: "🎁💖🤗💝💋❤️💕"  // These will bounce around
     },
