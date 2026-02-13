@@ -24,22 +24,22 @@ const CONFIG = {
         first: {
             text: "Firstly will you be my Valentine?",                                    // First interaction
             yesBtn: "Yes",                                             // Text for "Yes" button
-            noBtn: "Yes",                                               // Text for "No" button
+            yesBtn: "Yes",                                               // Text for "No" button
             secretAnswer: "Sorry you cant even say no XD"           // Secret hover message
         },
-        first: {
+        second: {
             text: "Please Choose a Starter",                                    // First interaction
             yesBtn: "Fries",                                             // Text for "Yes" button
-            noBtn: "Seasoned Potatos",                                               // Text for "No" button
+            yesBtn: "Seasoned Potatos",                                               // Text for "No" button
             secretAnswer: "You have to choose unfortunately"           // Secret hover message
         },
-        second: {
+        third: {
             text: "Please Choose a Main",                                    // First interaction
             yesBtn: "MoMo's Famous Butter Chicken",                                             // Text for "Yes" button
-            noBtn: "Pasta a La Carte",                                               // Text for "No" button
+            yesBtn: "Pasta a La Carte",                                               // Text for "No" button
             secretAnswer: "Unfortunately I cannot be the main :("           // Secret hover message
         },
-        third: {
+        fourth: {
             text: "Please Choose a Dessert",                                    // First interaction
             yesBtn: "Fluffy Cake",                                             // Text for "Yes" button
             noBtn: "An Orange",                                               // Text for "No" button
