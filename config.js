@@ -25,7 +25,7 @@ const CONFIG = {
             text: "Firstly will you be my Valentine?",                                    // First interaction
             yesBtn: "Yes",                                             // Text for "Yes" button
             yesBtn: "Yes",                                               // Text for "No" button
-            secretAnswer: "Sorry you cant even say no XD"           // Secret hover message
+
         },
         second: {
             text: "Please Choose a Starter",                                    // First interaction
