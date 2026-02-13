@@ -20,40 +20,29 @@ const CONFIG = {
 
     // Questions and answers
     // Customize each question and its possible responses
-    questions: {
-        first: {
-            text: "Firstly will you be my Valentine?",                                    // First interaction
-            yesBtn: "Why",                                             // Text for "Yes" button
-            yesBtn: "No",                                               // Text for "No" button
-            secretAnswer: "Yessssss"  
-        },
-        second: {
-            text: "Please Choose a Starter",                                    // First interaction
-            yesBtn: "Fries",                                             // Text for "Yes" button
-            yesBtn: "Seasoned Potatos",                                               // Text for "No" button
-            secretAnswer: "You have to choose unfortunately"           // Secret hover message
-        },
-        third: {
-            text: "Please Choose a Main",                                    // First interaction
-            yesBtn: "MoMo's Famous Butter Chicken",                                             // Text for "Yes" button
-            yesBtn: "Pasta a La Carte",                                               // Text for "No" button
-            secretAnswer: "Unfortunately I cannot be the main :("           // Secret hover message
-        },
-        fourth: {
-            text: "Please Choose a Dessert",                                    // First interaction
-            yesBtn: "Fluffy Cake",                                             // Text for "Yes" button
-            noBtn: "An Orange",                                               // Text for "No" button
-            secretAnswer: "Unfortunately I cannot be the dessert either :("           // Secret hover message
-        },
+questions: {
+    first: {
+        text: "Will you be my Valentine?",
+        yesBtn: "Yes 💖",
+        noBtn: "No 😢"
     },
+    second: {
+        text: "What starter would you like?",
+        yesBtn: "Seasoned Potatoes 🥔",
+        noBtn: "Seasoned Potatoes 🥔"
+    },
+    third: {
+        text: "What cuisine would you like to try today?",
+        yesBtn: "India 🇮🇳",
+        noBtn: "Italy 🇮🇹"
+    },
+    fourth: {
+        text: "What dessert would you like?",
+        yesBtn: "Teddy Bear 🧸",
+        noBtn: "Me 😉"
+    }
+}
 
-    // Love meter messages
-    // They show up depending on how far they slide the meter
-    loveMessages: {
-        extreme: "WOOOOW You love me that much?? 🥰🚀💝",  // Shows when they go past 5000%
-        high: "To infinity and beyond! 🚀💝",              // Shows when they go past 1000%
-        normal: "And beyond! 🥰"                           // Shows when they go past 100%
-    },
 
     // Messages that appear after they say "Yes!"
     celebration: {
